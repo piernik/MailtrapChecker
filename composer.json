@@ -1,0 +1,26 @@
+{
+  "name": "lukana/mailtrap-checker",
+  "type": "library",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "version": "0.9.0",
+  "require": {
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lukana\\MailtrapChecker\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Lukana\\MailtrapChecker\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Lukasz Piernikarczyk",
+      "email": "biuro@lukana.pl"
+    }
+  ]
+}
