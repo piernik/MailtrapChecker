@@ -86,6 +86,10 @@ class MailtrapChecker
         return $res;
     }
 
+    /**
+     * Get Mailtrap's Api Token
+     * @return string
+     */
     public function getApiToken()
     {
         return $this->apiGenerator->getApiToken();
